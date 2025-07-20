@@ -11,10 +11,10 @@ export default function LocationMain() {
     <div className='locationContainer'>
       <Navbar />
       <h1 className='location-header'>📍 OUR CAFE LOCATION</h1>
-      <div className='map-flex'>
+      {/* <div className='map-flex'> */}
         <LocationText />
         {/* <MapComponent /> */}
-      </div>
+      {/* </div> */}
       <Footer />
       
     </div>
