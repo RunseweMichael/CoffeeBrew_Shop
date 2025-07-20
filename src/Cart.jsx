@@ -70,7 +70,7 @@ export default function Cart({ cart, setCart }) {
         {groupedItems.map((item, index) => (
           <li key={index} className="cart-item">
             <span>
-              {item.name} : ${item.price} × {item.quantity} = ${(
+              {item.name} : &#8358;{item.price} × {item.quantity} = &#8358;{(
                 item.price * item.quantity
               ).toFixed(2)}
             </span>
@@ -82,7 +82,7 @@ export default function Cart({ cart, setCart }) {
           </li>
         ))}
       </ul>
-      <p><strong>Total:</strong> ${totalPrice}</p>
+      <p><strong>Total:</strong> &#8358;{totalPrice}</p>
       {cart.length > 0 && <PaystackButton {...componentProps} />}
     </div>
   );

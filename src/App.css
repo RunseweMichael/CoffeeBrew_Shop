@@ -350,6 +350,11 @@ html{
   position: relative;
   padding: 20px 30px;
   margin: 0 auto;
+  background-image: url(/ProductsImg/how-alternative2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
 }
 
 .vid-container{
