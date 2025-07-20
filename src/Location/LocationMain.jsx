@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import LocationText from './LocationText'
-import MapComponent from './MapComponent'
+// import MapComponent from './MapComponent'
 import Footer from './Footer'
 import ContactText from '../ContactUS/ContactText'
 
@@ -13,7 +13,7 @@ export default function LocationMain() {
       <h1 className='location-header'>📍 OUR CAFE LOCATION</h1>
       <div className='map-flex'>
         <LocationText />
-        <MapComponent />
+        {/* <MapComponent /> */}
       </div>
       <Footer />
       
