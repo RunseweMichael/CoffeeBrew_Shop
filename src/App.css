@@ -23,7 +23,7 @@ html{
 .landingPage{
   width: 100vw;
   height: 100vh;
-  background-image: url(./assets/CoffeeImages/coffee7rot.jpg);
+  background-image: url(/CoffeeImages/coffee7rot.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -890,7 +890,7 @@ html{
  .landingPage{
   width: 100vw;
   height: 100vh;
-  background-image: url(./assets/CoffeeImages/coffee7.jpg);
+  background-image: url(/CoffeeImages/coffee7.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/CoffeeImages/CofLogo1.jpg';
+import logo from '/CoffeeImages/CofLogo1.jpg';
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
