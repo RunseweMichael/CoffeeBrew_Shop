@@ -1,9 +1,8 @@
 {
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "/",
-      "statusCode": 200
+      "source": "/((?!.*\\.(js|css|png|jpg|jpeg|svg|json|woff|woff2|ttf|eot|ico|map|txt)$).*)",
+      "destination": "/"
     }
   ]
 }
